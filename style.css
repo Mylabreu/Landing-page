@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap')
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: #fcec91;
+}
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-top:0.4px solid #b43b1c;
+  border-right: 0.4px solid #b43b1c;
+  border-left:0.4px solid #b43b1c ;
+}
+.menu{
+  display:flex;
+  gap:32px;
+  
+}
+.menu-item{
+  font-family: "Sarala", sans-serif;
+  color: #e45b37;
+  font-weight: 400;
+  font-size: 18px;
+
+}
+.conteudo{
+  border-top: 0.4px solid #b43b1c;
+  margin-bottom: 48px;
+}
+.principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.conteudo-principal{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.titulo{
+  font-family: "Righteous", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  color: #c7300b;
+
+}
+.subtitulo{
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #e45b37;
+  font-style: italic;
+  
+
+}
+.botao{
+  background-color: white;
+  width: 180px;
+  height: 60px;
+  border:none;
+  border-radius: 30px;
+  color: #e45b37;
+  font-family: "Sarala", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+
+
+}
+.botao:hover{
+  background-color: #36312e;
+}
+.imagem-principal{
+  height: 330px;
+
+}
+.secundario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+
+}
+.secundario-titulo{
+  border-top:0.4px solid #ec7937 ;
+  padding-top: 48px;
+  color: #c7300b;
+  font-family: "Righteous", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.paragrafo{
+  font-family: "Sarala", sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  color: #b43b1c;
+
+}
+header {
+  background-color: white;
+}
+
+.rodape{
+  padding: 32px;
+  border-top: 0.4px solid #b43b1c;
+  
+  
+  
+  
+
+}
+.imagem-rodape{
+  height: 100px;
+  display: block;
+  margin: 0% auto;
+
+}
+footer{
+  background-color:white ;
+  padding: 1%;
+  
+}
+
+
+
+
+ 
+ 
